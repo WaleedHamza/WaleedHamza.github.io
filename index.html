@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"> -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- <script src="/path/to/isotope.pkgd.min.js"></script> -->
@@ -13,50 +15,65 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/Portfolio.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
     <link href='https://fonts.googleapis.com/css?family=Archivo:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>Waleed Hamza</title>
 </head>
 <body>
-
-
   <div class="titleDiv" class="row">
-      <div id="name" class="col-sm-12 animated fadeInUp">
+      <div id="name" class="col-sm-12 animated pulse">
         <div class="wrapper">
             <div class="home">
-            <div class="profilePic"></div>
+            
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
+                        <div class="profilePic"></div>
                     <h1 class="display-4">Waleed Hamza</h1>
-                    <h1 class="display-4">Full Stack Developer</h1>
+                    <h1 class="display-5">Full Stack Developer</h1>
                     <br/>
                     <p class="lead">HTML | CSS | JavaScript | JQuery | Node.js | Express.js | Mongo | React.js </p>
                 </div>
                 </div>
+
+                <div class="col l5 offset-l4">
+                        <div class='socialMedia'>
+                              <a href="https://github.com/WaleedHamza" target="_blank" ><img src="/assets/images/github2.png"></a>
+                              <a href="https://www.linkedin.com/in/waleed-hamza-b8695a6b/" target="_blank"><img src="/assets/images/linkedin2.png"></a>
+                              <a href="https://stackoverflow.com/users/9254704/waleed-hamzah?tab=profile#" target="_blank"><img src="/assets/images/stack2.png"></a>
+                      </div>
+                      </div>
+
+
                 <button id="viewWork">View My Work</button>
+                <button id="contactBtn">Contact Me</button>
             </div>
         </div>
       </div>
     </div>
 
-    <div class="aboutMe" class="row">
-         <div id="profileImage" class="col-offset-sm-2 col-sm-2">
-          </div> 
-        <div id="aboutMeText" class="col-sm-offset-2 col-sm-4" >
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolorem facere asperiores quibusdam ea voluptatem libero minima, 
-            iure rerum rem exercitationem in porro ab dolore inventore nesciunt 
-            deleniti voluptate natus sunt! Lorem ipsum dolor sit amet 
-            consectetur adipisicing elit. Similique est, ut excepturi molestias 
-            placeat quia iste amet qui distinctio quo dolores cupiditate,
-            perspiciatis doloremque fugiat id maxime. Harum, ullam maxime.
-          <br>
-          
-          </p>
+    <div class="container" id="aboutMe" >
+        <!-- class="col-offset-sm-2 col-sm-2" -->
+        <div class="wrapper aboutMeHeader">
+         <div class="aboutMeLine"></div> 
+         <div id="aboutMeTitle"><h1>About Me</h1></div> 
+         <div class="aboutMeLine"></div> 
+        </div>
+
+        <div id="aboutMeText">
+          <h2>
+          Hi there, I am a junior Full Stack Developer, I started my coding 
+          jourey less than a year ago driven by my ambition and the desire to 
+          be challenged I always thrive to create clean and functional web apps.
+          My goal is to excel and keep learning the ever evolving technologies.
+          I am a life long learner willing to not only face challanges but also to overcome 
+          any. say something abput my skills.
+          </h2>
         </div>
       </div>
 
-<div id='portfolioItems' class="container">
+<div id="portfolioDiv" class="container">
+    <div id='portfolioItems'>
 <!-- Slick start -->
   <div class="autoPlay">
 
@@ -145,28 +162,39 @@
                             </div>
 
 </div>
-</div>
+
+</div></div>
 <!-- ////////////////////////////Footer Section //////////////////////// -->
 
       <footer class="footer">
             <div class="container">
               <div class="row">
-                <div class="col l3 ">
-                  <h5 class="white-text">Contact</h5>
-                  <p class="grey-text text-lighten-4">hamzah.waleed@gmail.com</p>
-                </div>
-                <div class="col l5 offset-l4">
-                  <div class='socialMedia row'>
-                        <div class="col 4" href="https://github.com/WaleedHamza" target="_blank"><img src="/assets/images/github.png"></div>
-                        <div class="col 4" href="https://www.linkedin.com/in/waleed-hamza-b8695a6b/" target="_blank"><img src="/assets/images/linkedin.png"></div>
-                        <div class="col 4" href="https://stackoverflow.com/users/9254704/waleed-hamzah?tab=profile#" target="_blank"><img src="/assets/images/stackoverflow.png"></div>
-                </div>
-                </div>
+               
+                
               </div>
             </div>
-            <div class="footer-copyright">
+            <div class="container footer-copyright">
               <div class="container">
-              © 2018 Waleed Hamza
+                  <div class="contactTitle"><h3>Get in touch</h3></div>
+                    <div class="container email">
+                            <form action="https://formspree.io/hamzah.waleed@gmail.com" method="POST">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name">
+                                <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone"
+                                   placeholder="123-456-7890"
+                                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                   required />
+                            <span class="validity"></span>
+                                <label for="email">Email</label>
+                                <input type="email" name="replyto">
+                                <label for="message">Message</label>
+                                <textarea type="text" name="message" id="messageInput" ></textarea>
+                                <button id="sendBtn" class="btn btn-secondary" type="submit" value="Send"><i class="far fa-envelope"></i> Send</button> 
+                            </form>
+                        </div>
+
+              <p class="contactTitle">© 2018 Waleed Hamza</p>
               </div>
             </div>
           </footer>
