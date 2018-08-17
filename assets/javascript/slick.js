@@ -12,15 +12,15 @@ $(document).ready(function(){
       {
         breakpoint: 925,
         settings: {
-          slidesToShow: 2,
+          slidesToShow:2,
           slidesToScroll: 1,
           arrows: true
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 640,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false
         }

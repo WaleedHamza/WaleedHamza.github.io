@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 360px){
   .home{
     padding-bottom: 30px;
   }
@@ -14,13 +14,13 @@
     font-size: 15px;
   }
   .titleBtns{
-    width: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 
   }
   #viewWork, #contactBtn{
-    width: 90%;
+    width: 100%;
   }
 
   #aboutMeTitleDiv{
@@ -57,7 +57,7 @@ footer, .email, #sendBtn{
   }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 640px){
   .home{
     padding-bottom: 30px;
   }
@@ -79,7 +79,7 @@ footer, .email, #sendBtn{
 
   }
   #viewWork, #contactBtn{
-    width: 90%;
+    width: 50%;
   }
 
   #aboutMeTitleDiv{
