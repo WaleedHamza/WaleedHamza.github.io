@@ -19,8 +19,8 @@
   padding: 0;
 
   }
-  #viewWork, #contactBtn{
-    width: 100%;
+  #viewWork, #contactBtn, #resumeBtn{
+    width: 50%;
   }
 
   #aboutMeTitleDiv{
@@ -78,7 +78,7 @@ footer, .email, #sendBtn{
   padding: 0;
 
   }
-  #viewWork, #contactBtn{
+  #viewWork, #contactBtn, #resumeBtn{
     width: 50%;
   }
 
@@ -117,11 +117,8 @@ footer, .email, #sendBtn{
   }
 @media only screen and (max-width: 1024px){
 
-    .nav-mobile{
-      margin: 0 auto;
-      width: 50%;
-      justify-content: space-between;
-      color: darkgray ;
-    }
+  #viewWork, #contactBtn, #resumeBtn{
+    width: 50%;
+  }
 
   }
