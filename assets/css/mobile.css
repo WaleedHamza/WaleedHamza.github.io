@@ -22,6 +22,12 @@
   #viewWork, #contactBtn{
     width: 90%;
   }
+
+  #aboutMeTitleDiv{
+    border-bottom: 5px solid white;
+    width: 40%;
+    text-align: center;
+  }
   #aboutMeTitle{
     font-size: 20px;
   }
@@ -52,23 +58,61 @@ footer, .email, #sendBtn{
 
 
 @media only screen and (max-width: 600px){
+  .home{
+    padding-bottom: 30px;
+  }
+  .titles, .jumbotron{
+    padding: 0;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+.display-4{
+  font-size: 30px;
+}
+  h1, .lead{
+    font-size: 15px;
+  }
+  .titleBtns{
+    width: 100%;
+  margin: 0;
+  padding: 0;
 
-    .nav-mobile{
-      margin: 0 auto;
-      width: 50%;
-      justify-content: space-between;
-      color: darkgray ;
-    }
-  
-    #card{
-      width: 100%;
-      padding-left: 2%;
-      padding-right: 2%;
-    }
-    #name{
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+  }
+  #viewWork, #contactBtn{
+    width: 90%;
+  }
+
+  #aboutMeTitleDiv{
+    border-bottom: 5px solid white;
+    width: 40%;
+    text-align: center;
+  }
+  #aboutMeTitle{
+    font-size: 20px;
+  }
+  .aboutMeLine{
+    width: 0;
+  }
+
+  #aboutMeText{
+    width: 90%;
+    font-size: 20px;
+  }
+
+#portfolioItems{
+  height: 20vh;
+}
+
+footer{
+  min-height: 100vh;
+}
+footer, .email, #sendBtn{
+  width: 100%;
+}
+#messageInput{
+  height: 200px;
+}
+
 
   }
 @media only screen and (max-width: 1024px){
