@@ -4,7 +4,7 @@ body{
 }
 .titleDiv{
   background: #19314c;
-  background: -webkit-linear-gradient(to top, #4CA1AF, #19314c);
+  background: -webkit-linear-gradient(to top, #19314c, #19314c);
   background: linear-gradient(to top, #4CA1AF, #19314c);
   min-width: 100vw;
   min-height: 100vh;
