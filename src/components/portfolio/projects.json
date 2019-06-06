@@ -1,0 +1,35 @@
+[{
+        "id": 1,
+        "name": "Movie DB Search",
+        "img": "./portfolio_items/Movie.png",
+        "link": "https://waleedhamza.github.io/Movie_Trailers/"
+    },{
+        "id": 2,
+        "name": "Memory Game",
+        "img": "./portfolio_items/memory.png",
+        "link": "https://memory-game-react-v1.herokuapp.com/"
+    },{
+        "id": 3,
+        "name": "Burger",
+        "img": "./portfolio_items/burger.png",
+        "link": "https://sheltered-meadow-20126.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Friend Finder",
+        "img": "./portfolio_items/finder.png",
+        "link": "https://thawing-bayou-38205.herokuapp.com/"
+    },
+    {
+        "id":5,
+        "name": "Trivia",
+        "img": "./portfolio_items/trivia.png",
+        "link":"https://waleedhamza.github.io/TriviaGame/"
+    },
+    {
+        "id":6,
+        "name": "Train Schedule",
+        "img": "./portfolio_items/train.png",
+        "link":"https://waleedhamza.github.io/Train-Schedule/"
+    }
+]
