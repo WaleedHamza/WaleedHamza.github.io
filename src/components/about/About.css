@@ -1,0 +1,19 @@
+.about{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+}
+.aboutText{
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Quicksand-Bold;
+    font-size: 20px;
+}

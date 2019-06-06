@@ -1,0 +1,32 @@
+.navbar{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-around;
+    background: #222222;
+}
+
+.title,.navItem{
+    color: white;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.title:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navItem{
+    font-size: 1em;
+    transition: all 500ms;
+}
+.navItem:hover{
+    color: rgb(0, 255, 238);
+    transition: all 500ms;
+}
