@@ -12,24 +12,12 @@
         "id": 3,
         "name": "Burger",
         "img": "./portfolio_items/burger.png",
-        "link": "https://sheltered-meadow-20126.herokuapp.com/"
+        "link": "https://eat-the-burger-v1.herokuapp.com/"
     },
     {
         "id": 4,
         "name": "Friend Finder",
         "img": "./portfolio_items/finder.png",
-        "link": "https://thawing-bayou-38205.herokuapp.com/"
-    },
-    {
-        "id":5,
-        "name": "Trivia",
-        "img": "./portfolio_items/trivia.png",
-        "link":"https://waleedhamza.github.io/TriviaGame/"
-    },
-    {
-        "id":6,
-        "name": "Train Schedule",
-        "img": "./portfolio_items/train.png",
-        "link":"https://waleedhamza.github.io/Train-Schedule/"
+        "link": "https://glacial-beyond-19940.herokuapp.com/"
     }
 ]
