@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Quicksand';
 }
 
 .App-logo {
@@ -26,6 +27,7 @@
 a, a:active, a:hover{
   text-decoration: none;
 }
+
 
 
 
