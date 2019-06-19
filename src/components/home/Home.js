@@ -8,7 +8,7 @@ import './Navbar.css';
 import About from '../about/About';
 import Portfolio from '../portfolio/Portfolio';
 import Contact from '../contact/Contact';
-
+import PDF from '../../Assets/resume.pdf'
 class Home extends Component {
 
     constructor(...args) {
@@ -113,6 +113,7 @@ class Home extends Component {
                                         offset={-70}
                                         duration={500}> <Nav.Link>Contact</Nav.Link>
                                         </Link>
+                                        <Nav.Link className='navItem' href={PDF}>Resume</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
