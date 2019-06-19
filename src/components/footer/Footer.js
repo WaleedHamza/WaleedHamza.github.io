@@ -32,7 +32,7 @@ class Footer extends Component {
                         <i style={scrollBtn} className="fas fa-chevron-circle-up fa-3x"></i>
                     </button>
                 </Slide>
-<div> <p className='copyRight'>Waleed Hamza  </p><p  className='copyRight' style={scrollBtn}>&copy;2019</p></div>
+<div className='rights'> <p className='copyRight'>Waleed Hamza</p><p style={scrollBtn}>&copy;2019</p></div>
                
             </div>
         )

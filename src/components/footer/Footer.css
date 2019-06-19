@@ -16,13 +16,13 @@
     margin:20px;
 }
 
+.rights{
+    display:flex;
+    justify-content: center;
+}
 .copyRight{
-    display: block;
-    margin: 0 auto;
-    border: none;
     color: #ffffff;
     text-align: center;
-
 }
 
 .scrollToTopBtn {
