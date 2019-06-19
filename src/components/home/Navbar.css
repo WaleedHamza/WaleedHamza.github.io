@@ -1,18 +1,23 @@
 .navbar {
-    margin: 0 auto; 
+    margin: 0 auto;
     justify-content: space-around;
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
     border-width: 5px;
     border-style: solid;
-    border-image: 
-        linear-gradient(
-        to bottom, 
-        #00adee, 
-        #22222200
-        ) 1 100%;
+    border-image: linear-gradient( to bottom, #00adee, #22222200 ) 1 100%;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
-
-.navbar-toggler:focus{
-outline: none;
+.brand:hover {
+    color: #00adee;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.navbar-toggler:focus {
+    outline: none;
 }
