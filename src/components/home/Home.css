@@ -9,12 +9,12 @@
     background: linear-gradient(to top, #434343, #222222); 
     font-family: 'Quicksand', sans-serif;
     z-index: 4;
+    
 }
-
 .particles{
     position: absolute;
-    z-index: 0;
-    height: 100%;
+    z-index: -1;
+    max-height: 100%;
     width: 100%;
 }
 .hero{
@@ -25,16 +25,14 @@
     justify-content: space-around;
     align-items: center;
 }
-
-.photo{
-    height: 50vh;
-}
 .jumbotron{
 background-color: rgba(0, 0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 65%;
 }
+
 .container{padding: 0;
     border-radius: 5px;
     display: flex;
@@ -43,34 +41,32 @@ background-color: rgba(0, 0, 0, 0);
     align-items: center;
     text-align: center;
     color: white;
+    /* border: solid 2px #ffffff; */
 }
-
+.name{
+    color: #00adee;
+    border: none;
+}
 .text{
     border-bottom: 1px solid #ffffff;
     border-top: 1px solid #ffffff;
     padding: 20px;
     margin-top: 30px;
-}
-
-hr{
-    padding: 0;
-    margin: 0;
-}
+    color: #00adee;
+    font-family: 'Quicksand Bold', sans-serif;}
 .aboutBtn{
     background-color: #ffffff;
-    color: #222222;
+    background-color:rgba(0, 0, 0, 0);
+    color: #ffffff;
     margin-top: 60px;
-    padding: 20px;
-    width: 250px;
-    border-radius: 50px;
-    border: solid 5px #ffffff;
+    width: 200px;
+    border: solid 1px #ffffff;
     transition: all 500ms;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
 .aboutBtn:hover{
-    background-color:rgba(0, 0, 0, 0);
+    background-color:#00adee;
     color: #ffffff;
     transition:  500ms;
 }
@@ -98,4 +94,16 @@ hr{
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+@media only screen and (max-width: 600px){
+    .hero{
+        width: 100%;
+    }
+
+    canvas{
+        height: 100vh!important;
+    }
+   
+
 }

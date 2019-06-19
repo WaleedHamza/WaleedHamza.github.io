@@ -25,7 +25,7 @@ class Background extends Component{
                         "enable": false
                     },
                     "move": {
-                        "random": true,
+                        "random": false,
                         "speed": 1,
                         "direction": "top",
                         "out_mode": "out"
@@ -50,7 +50,7 @@ class Background extends Component{
                             "opacity": 0
                         },
                         "repulse": {
-                            "distance": 400,
+                            "distance": 200,
                             "duration": 4
                         }
                     }

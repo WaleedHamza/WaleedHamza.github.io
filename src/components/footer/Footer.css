@@ -16,7 +16,6 @@
     margin:20px;
 }
 
-/* .scrollToTopBtn,  */
 .copyRight{
     display: block;
     margin: 0 auto;
@@ -24,4 +23,16 @@
     color: #ffffff;
     text-align: center;
 
+}
+
+.scrollToTopBtn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: absolute ;
+    z-index: 10;
+    right: 50px;
+    bottom: 70px;
+}
+.scrollToTopBtn:focus{
+    outline: none;
 }

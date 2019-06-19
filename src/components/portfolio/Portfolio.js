@@ -1,59 +1,43 @@
-import React, {Component} from 'react'
-import {CardDeck, Card, Button} from 'react-bootstrap';
-// import {Animated} from "react-animated-css";
+import React from 'react';
+import {CardDeck, Card} from 'react-bootstrap';
 import Slide from 'react-reveal/Slide';
 import Reveal from 'react-reveal/Reveal';
 import Projects from './projects.json';
 import './Portfolio.css';
 
-class Portfolio extends Component {
-    constructor(props) {
-        super(props);
-        this.handleMouseHover = this.handleMouseHover.bind(this);
-        this.state = {
-          isHovering: false,
-        };
-      }
+const Portfolio = ()=> {
     
-      handleMouseHover() {
-        this.setState(this.toggleHoverState);
-      }
-    
-      toggleHoverState(state) {
-        return {
-          isHovering: !state.isHovering,
-        };
-      }
 
-    render() {
         return (
             <div className='portfolio'>
                 <Reveal effect="fadeInUp">
-                <h1 className='portfolioTitle'>Portfolio</h1></Reveal>
+                    <h1 className='portfolioTitle'>
+                        <a href='/portfolio'>Portfolio</a>
+                    </h1>
+                </Reveal>
                 <CardDeck bsPrefix='deck'>
-                    {Projects.map((item, index) => {
+                    { Projects.map( item => {
                         return (
-                            <Slide bottom>
-                                <Card className='card' key={item.id}>
-                                    <Card.Img variant="top" src={require(`${item.img}`)} alt={item.name} 
-                                      onMouseEnter={this.handleMouseHover}
-                                    onMouseLeave={this.handleMouseHover}></Card.Img>
-                                    {this.state.isHovering && <div className='overlay'>
-                                <Card.Body className='cardBody'>
-                                    <Card.Title bsPrefix='cardTitle'>{item.name}</Card.Title>
-                                    <Button className='cardBtn' variant="link">
-                                        <a href={item.link}>Learn More</a>
-                                    </Button>
-                                </Card.Body></div>}
+                            <Slide bottom key={item.id}>
+                                <Card className='card' key={item.name}>
+                                    <a className="btnLink" href={item.link}>
+                                        <Card.Img
+                                            className="cardImg"
+                                            variant="top"
+                                            src={require(`${item.img}`)}
+                                            alt={item.name}></Card.Img>
+                                    </a>
                                 </Card>
-                                </Slide>
+                            </Slide>
                         )
                     })}
                 </CardDeck>
             </div>
         )
+ 
+       
+    
+        
     }
-}
-
 
 export default Portfolio;

@@ -1,0 +1,18 @@
+.navbar {
+    margin: 0 auto; 
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+        to bottom, 
+        #00adee, 
+        #22222200
+        ) 1 100%;
+}
+
+.navbar-toggler:focus{
+outline: none;
+}

@@ -1,34 +1,67 @@
 .about{
-    height: 75vh;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-self: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    font-family: 'Quicksand';
-
-    /* background-color: #00adee; */
-    /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
-    /* clip-path: polygon(0 30%, 100% 45%, 100% 100%, 0 85%); */
-    /* clip-path: polygon(50% 2%, 100% 15%, 100% 100%, 0 100%, 0 15%); */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Quicksand', 'san-serif';
 }
+.icon{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+h3{
+    text-align:center;
 
+}
 .aboutTitle{
     display: block;
     margin: auto;
     border-bottom: solid 2px black;
+    margin-bottom: 50px;
 }
-.aboutText{
+.skillsDiv{
+    width: 70%;
     margin: 0 auto;
-    padding: 150px;
-    background-color: #00adee;
-    color: #ffffff;
-    clip-path: polygon(0 12%, 100% 27%, 91% 77%, 11% 89%);
-    width: 90%;
-    position: relative;
+}
+.skills{
+    margin: 0 auto;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    align-self: center;
+    flex-direction: row;
+    align-items: space-around;
+    list-style-type: none;
+}
+
+li{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+
+.aboutText{
+    padding: 50px;
+    background-color: #00adee;
+    color: #ffffff;
+    clip-path: polygon(0 1%, 100% 7%, 98% 80%, 5% 93%);
+    width: 90%;
     font-size: 20px;
 }
+
+
+@media only screen and (max-width: 670px){
+    .skills{
+        flex-direction: column;
+        overflow: unset;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+}
+

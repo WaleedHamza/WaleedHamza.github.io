@@ -1,9 +1,15 @@
 import React, {Component} from 'react'
-// import { Button} from 'react-bootstrap';
-
+import { animateScroll as scroll} from 'react-scroll'
+import Slide from 'react-reveal/Slide';
 import './Footer.css'
 
 class Footer extends Component {
+
+    scrollToTop = () => {
+        scroll.scrollToTop();
+    }
+
+
     render() {
         return (
             <div className='footer'>
@@ -20,7 +26,14 @@ class Footer extends Component {
                         </a>
                     </div>
                 </div>
-                <p className='copyRight'>Waleed Hamza &copy;2019 </p>
+                <Slide right>
+                    <button className='scrollToTopBtn' onClick={this.scrollToTop}>
+
+                        <i style={scrollBtn} className="fas fa-chevron-circle-up fa-3x"></i>
+                    </button>
+                </Slide>
+<div> <p className='copyRight'>Waleed Hamza  </p><p  className='copyRight' style={scrollBtn}>&copy;2019</p></div>
+               
             </div>
         )
     }
@@ -28,5 +41,9 @@ class Footer extends Component {
 
 const iconStyle = {
     color: '#ffffff'
+}
+
+const scrollBtn = {
+    color: '#00adee'
 }
 export default Footer;

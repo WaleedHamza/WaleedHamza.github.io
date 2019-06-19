@@ -1,0 +1,55 @@
+.bars{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.bars1{
+    float: left;
+    width: 45%;
+}
+.bars2{
+    float: right;
+    width: 45%;
+}
+.bar-label {
+    color: white;
+    font: 15px 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.bar-suffix {
+  display: inline-block;
+    color: black;
+    font: 15px 'opensans-bold', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.bar-contain {
+    width: 90%;
+    display: inline-block; 
+    border-radius: 3px;
+}
+
+.bar-expand {
+    display: inline-block;
+    border-radius: 3px 50px 50px 3px;
+}
+
+@media only screen and (max-width: 724px){
+    .bars1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bars2{
+        margin-top: 10px;
+        width: 100%;
+    }
+}

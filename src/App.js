@@ -1,18 +1,21 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar'
+import React, {Component} from 'react';
 import Home from './components/home/Home'
 import About from './components/about/About'
-import Portfolio from './components/portfolio/Portfolio'
+import Portfolio from './components/portfolio/Portfolio.js';
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
-function App() {
+class App extends Component {
+render(){
+
 
     return (
+        
         <Router>
+            
             <div className="App">
-                <Navbar/>
+                
                 <Switch>
                     <Route path={'/'} exact component={Home}/>
                     <Route path={'/home'} component={Home}/>
@@ -25,7 +28,7 @@ function App() {
         </Router>
     );
 }
-
+}
 
 
 export default App;
