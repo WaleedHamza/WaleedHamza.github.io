@@ -11,9 +11,7 @@ const Portfolio = ()=> {
         return (
             <div className='portfolio'>
                 <Reveal effect="fadeInUp">
-                    <h1 className='portfolioTitle'>
-                        <a href='/portfolio'>Portfolio</a>
-                    </h1>
+                    <h1 className='portfolioTitle'>Portfolio</h1>
                 </Reveal>
                 <CardDeck bsPrefix='deck'>
                     { Projects.map( item => {
