@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31f9f1e3.chunk.css",
+    "main.js": "/static/js/main.812d48c1.chunk.js",
+    "main.js.map": "/static/js/main.812d48c1.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.613117c4.chunk.js": "/static/js/2.613117c4.chunk.js",
+    "static/js/2.613117c4.chunk.js.map": "/static/js/2.613117c4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f326c408ab63220520761892f64fca88.js": "/precache-manifest.f326c408ab63220520761892f64fca88.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.31f9f1e3.chunk.css.map": "/static/css/main.31f9f1e3.chunk.css.map",
+    "static/media/Giftastic.png": "/static/media/Giftastic.fef6f165.png",
+    "static/media/Mongo_Scraper.png": "/static/media/Mongo_Scraper.3b92d088.png",
+    "static/media/Movie.png": "/static/media/Movie.caa88c5b.png",
+    "static/media/Node.gif": "/static/media/Node.ff57f4aa.gif",
+    "static/media/burger.png": "/static/media/burger.8c8e57af.png",
+    "static/media/fast.svg": "/static/media/fast.4043e489.svg",
+    "static/media/finder.png": "/static/media/finder.f21c0ff0.png",
+    "static/media/intuitive.svg": "/static/media/intuitive.b063fddb.svg",
+    "static/media/memory.png": "/static/media/memory.ef346773.png",
+    "static/media/responsive.svg": "/static/media/responsive.39cbc8df.svg",
+    "static/media/scale.png": "/static/media/scale.52712e2e.png",
+    "static/media/scale.svg": "/static/media/scale.a76ca947.svg",
+    "static/media/train.png": "/static/media/train.146787fc.png",
+    "static/media/trivia.png": "/static/media/trivia.18360618.png"
+  }
+}
