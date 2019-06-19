@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Jumbotron, Container, Button, Navbar, Nav} from 'react-bootstrap';
+import {Jumbotron, Container, Button,Navbar, Nav} from 'react-bootstrap';
+// import Navbar from 'react-bootstrap/Navbar'
 import Background from '../particles/Particles';
 import {Link, animateScroll as scroll} from 'react-scroll';
 import Fade from 'react-reveal/Fade';
@@ -89,29 +90,29 @@ class Home extends Component {
                                         offset={-70}
                                         duration={500}><Navbar.Brand href="#home" ><h3 className='brand'>Waleed Hamza</h3></Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                  <Nav className="ml-auto brand">
+                <Navbar.Collapse id="responsive-navbar-nav" >
+                  <Nav className="ml-auto" >
                   <Link
                                         activeClass='active'
                                         to='about'
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}><Nav.Link>Skills</Nav.Link></Link>
+                                        duration={500}><Nav.Link >Skills</Nav.Link></Link>
                     <Link
                                         activeClass='active'
                                         to='portfolio'
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}><Nav.Link>Portfolio</Nav.Link></Link>
+                                        duration={500}><Nav.Link >Portfolio</Nav.Link></Link>
                    <Link
                                         activeClass='active'
                                         to='contact'
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}> <Nav.Link>Contact</Nav.Link>
+                                        duration={500}> <Nav.Link >Contact</Nav.Link>
                                         </Link>
                                         <Nav.Link className='navItem' href={PDF}>Resume</Nav.Link>
                   </Nav>

@@ -1,6 +1,6 @@
 .home{
     margin: 0;
-    height: 100vh;
+    height: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -97,6 +97,9 @@ background-color: rgba(0, 0, 0, 0);
 }
 
 @media only screen and (max-width: 600px){
+    *{
+        -webkit-text-size-adjust: none !important;
+    }
     .hero{
         width: 100%;
     }

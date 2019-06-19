@@ -20,7 +20,6 @@
     top: 10px;
     left: 10px;
 }
-
 .bar-suffix {
   display: inline-block;
     color: black;
@@ -51,5 +50,8 @@
     .bars2{
         margin-top: 10px;
         width: 100%;
+    }
+    .bar-contain{
+        width: 80%;
     }
 }

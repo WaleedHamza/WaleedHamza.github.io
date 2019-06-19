@@ -36,3 +36,10 @@
 .scrollToTopBtn:focus{
     outline: none;
 }
+
+@media only screen and (max-width: 600px){
+    .scrollToTopBtn {
+        right: 10px;
+        bottom: 70px;
+    }
+}
